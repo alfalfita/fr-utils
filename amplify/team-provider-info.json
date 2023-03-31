@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-frutils-dev-171213-authRole",
+      "UnauthRoleArn": "arn:aws:iam::031842254778:role/amplify-frutils-dev-171213-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::031842254778:role/amplify-frutils-dev-171213-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-frutils-dev-171213-deployment",
+      "UnauthRoleName": "amplify-frutils-dev-171213-unauthRole",
+      "StackName": "amplify-frutils-dev-171213",
+      "StackId": "arn:aws:cloudformation:us-east-1:031842254778:stack/amplify-frutils-dev-171213/ee890c20-cf47-11ed-bc1f-12d3d3b65065",
+      "AmplifyAppId": "dk4axvravnu4j"
+    },
+    "categories": {
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}

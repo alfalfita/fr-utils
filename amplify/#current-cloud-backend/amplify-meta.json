@@ -1,0 +1,37 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-frutils-dev-171213-authRole",
+      "UnauthRoleArn": "arn:aws:iam::031842254778:role/amplify-frutils-dev-171213-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::031842254778:role/amplify-frutils-dev-171213-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-frutils-dev-171213-deployment",
+      "UnauthRoleName": "amplify-frutils-dev-171213-unauthRole",
+      "StackName": "amplify-frutils-dev-171213",
+      "StackId": "arn:aws:cloudformation:us-east-1:031842254778:stack/amplify-frutils-dev-171213/ee890c20-cf47-11ed-bc1f-12d3d3b65065",
+      "AmplifyAppId": "dk4axvravnu4j"
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "service": "S3AndCloudFront",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-frutils-dev-171213-deployment/amplify-cfn-templates/hosting/template.json",
+        "logicalId": "hostingS3AndCloudFront"
+      },
+      "lastPushTimeStamp": "2023-03-30T22:19:56.201Z",
+      "output": {
+        "CloudFrontSecureURL": "https://d1evs4fmsdugpy.cloudfront.net",
+        "S3BucketSecureURL": "https://frutils-20230330171312-hostingbucket-dev.s3.amazonaws.com",
+        "CloudFrontOriginAccessIdentity": "E16RNYJCN34TPZ",
+        "WebsiteURL": "http://frutils-20230330171312-hostingbucket-dev.s3-website-us-east-1.amazonaws.com",
+        "CloudFrontDistributionID": "E3DVHOEA2TKBMX",
+        "Region": "us-east-1",
+        "HostingBucketName": "frutils-20230330171312-hostingbucket-dev",
+        "CloudFrontDomainName": "d1evs4fmsdugpy.cloudfront.net"
+      },
+      "lastPushDirHash": "RAPDP8M0OZOiz0zWWlRLfJ1fSi4="
+    }
+  }
+}
